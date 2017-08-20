@@ -15,7 +15,7 @@ body { color: #555; margin: 0; font-family: 'Antic Slab', sans-serif;}
 .about {text-align: center;}
 .post-author img { width: 150px; height: 150px; vertical-align: middle; border-radius: 130px;}
 .post-author > span { margin-left: 16px;}
-.post-date { color: #D2D2D2; font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em;}
+.post-date { color: #154360; font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em;}
 h1, h2, h3, h4, { color: #333;}
 p { line-height: 1.5;}
 a { color: #1abc9c; text-decoration: none;}

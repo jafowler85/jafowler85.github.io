@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alef:400,700');
 body { color: #555; margin: 0; font-family: 'Antic Slab', sans-serif;}
-#header { background-color: #154360; height: 150px; line-height: 150px;}
+#header { background-color: #154360; height: 150px; line-height: 210px;}
 #header a { color: white; text-decoration: none; text-transform: uppercase; letter-spacing: 0.1em;}
 #header a:hover { color: #DAF7A6;}
 #header-title { display: block; float: left; font-size: 30px; font-weight: bold;}

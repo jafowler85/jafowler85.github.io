@@ -1,24 +1,150 @@
 @import url('https://fonts.googleapis.com/css?family=Alef:400,700');
-body { color: #555; margin: 0; font-family: 'Antic Slab', sans-serif;}
-#header { background-color: #154360; height: 150px; line-height: 210px;}
-#header a { color: white; text-decoration: none; text-transform: uppercase; letter-spacing: 0.1em;}
-#header a:hover { color: #DAF7A6;}
-#header-title { display: block; float: left; font-size: 30px; font-weight: bold;}
-#header-nav { display: block; float: right; margin-top: 0;}
-#header-nav li { display: inline; padding-left: 20px;}
-.container { max-width: 1000px; margin: 0 auto;}
-#footer { background-color: #154360; padding: 50px 0;}
-#footer h4 { color: white; text-transform: uppercase; letter-spacing: 0.1em;}
-#footer p {color: white;}
-.column { min-width: 300px; display: inline-block; vertical-align: top;}
-.post, .about { max-width: 1000px; margin: 0 auto; padding: 60px 0;}
-.about {text-align: center;}
-.post-author img { width: 150px; height: 150px; vertical-align: middle; border-radius: 130px;}
-.post-author > span { margin-left: 16px;}
-.post-date { color: #154360; font-size: 14px; font-weight: bold; text-transform: uppercase; letter-spacing: 0.1em;}
-h1, h2, h3, h4, { color: #333;}
-p { line-height: 1.5;}
-a { color: #1abc9c; text-decoration: none;}
-a:hover { color: #DAF7A6;}
-.about-author img { width: 200px; height: 200px; vertical-align: middle; border-radius: 180px;}
-.post-container:nth-child(even) { background-color: #f2f2f2;}
+
+body {
+  color: #222;
+  margin: 0;
+  font-family: 'Antic Slab', sans-serif;
+}
+
+#header {
+  background-color: #242f44;
+  height: 150px;
+  line-height: 210px;
+}
+
+#header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #8c6b48;
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.btn{
+  background-color: #154360;
+  border: 2px solid #8c6b48;
+  border-radius: 12px;
+  color: white;
+  padding: 12px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#footer {
+  background-color: #242f44;
+  padding: 50px 0;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+}
+
+.foot-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#links, #story {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#story {
+  float: right;
+}
+.post, .about {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.about {
+  float: none;
+}
+
+.post-author img {
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
+  border-radius: 130px;
+}
+
+.post-author > span {
+  margin-left: 16px;
+}
+.post-date {
+  color: #154360;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+h1, h2, h3, h4, {
+  color: #333;
+}
+p {
+  line-height: 1.5;
+}
+
+a{
+  color: #333;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover, #footer a:hover {
+  color: #8c6b48;
+}
+
+.about-author img {
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+  border-radius: 180px;
+}
+
+.post-container:nth-child(even) {
+  background-color: #f2f2f2;
+}

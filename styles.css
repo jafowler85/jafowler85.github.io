@@ -4,6 +4,7 @@ body {
   color: #222;
   margin: 0;
   font-family: 'Antic Slab', sans-serif;
+  background-image: url("old_wall.png");
 }
 
 * {

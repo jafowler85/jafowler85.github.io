@@ -6,6 +6,10 @@ body {
   font-family: 'Antic Slab', sans-serif;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 #header {
   background-color: #242f44;
   height: 150px;
@@ -66,7 +70,7 @@ body {
   padding: 50px 0;
 }
 
-#footer h4 {
+#footer h3 {
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -91,7 +95,7 @@ body {
   float: right;
 }
 .post, .about {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -143,8 +147,4 @@ a:hover, #footer a:hover {
   height: 200px;
   vertical-align: middle;
   border-radius: 180px;
-}
-
-.post-container:nth-child(even) {
-  background-color: #f2f2f2;
 }

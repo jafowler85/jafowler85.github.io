@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Alef:400,700');
 
+/*Universal styles*/
+
 body {
   color: #222;
   margin: 0;
@@ -10,6 +12,30 @@ body {
 * {
   box-sizing: border-box;
 }
+
+h1, h2, h3, h4, {
+  color: #333;
+}
+p {
+  line-height: 1.5;
+}
+
+a{
+  color: #333;
+}
+
+a:hover, #footer a:hover {
+  color: #8c6b48;
+}
+
+/*Container*/
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/*Header*/
 
 #header {
   background-color: #242f44;
@@ -46,10 +72,7 @@ body {
   padding-left: 20px;
 }
 
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-}
+/*Header Navigation buttons*/
 
 .btn{
   background-color: #154360;
@@ -65,6 +88,51 @@ body {
 .btn:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
+
+/*Post/About*/
+
+.post, .about {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+.post-content{
+  height: 320px;
+  width: 1000px;
+  overflow: scroll;
+}
+
+.post-author img {
+  width: 150px;
+  height: 150px;
+  vertical-align: middle;
+  border-radius: 130px;
+}
+
+.post-author > span {
+  margin-left: 16px;
+}
+.post-date {
+  color: #154360;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.about {
+  float: none;
+}
+
+.about-author img {
+  width: 200px;
+  height: 200px;
+  vertical-align: middle;
+  border-radius: 180px;
+}
+
+/*Footer*/
 
 #footer {
   background-color: #242f44;
@@ -95,57 +163,8 @@ body {
 #story {
   float: right;
 }
-.post, .about {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 60px 0;
-}
-
-.about {
-  float: none;
-}
-
-.post-author img {
-  width: 150px;
-  height: 150px;
-  vertical-align: middle;
-  border-radius: 130px;
-}
-
-.post-author > span {
-  margin-left: 16px;
-}
-.post-date {
-  color: #154360;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-h1, h2, h3, h4, {
-  color: #333;
-}
-p {
-  line-height: 1.5;
-}
-
-a{
-  color: #333;
-}
 
 #footer a {
   color: white;
   text-decoration: none;
-}
-
-a:hover, #footer a:hover {
-  color: #8c6b48;
-}
-
-.about-author img {
-  width: 200px;
-  height: 200px;
-  vertical-align: middle;
-  border-radius: 180px;
 }

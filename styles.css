@@ -28,19 +28,17 @@ a:hover, #footer a:hover {
   color: #8c6b48;
 }
 
-/*Container*/
+/*Header*/
+
+header {
+  background-color: #242f44;
+  height: 150px;
+  line-height: 210px;
+}
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
-}
-
-/*Header*/
-
-#header {
-  background-color: #242f44;
-  height: 150px;
-  line-height: 210px;
 }
 
 #header a {
@@ -134,18 +132,18 @@ a:hover, #footer a:hover {
 
 /*Footer*/
 
-#footer {
+footer {
   background-color: #242f44;
-  padding: 50px 0;
+  padding: 40px 0px 70px 0px;
 }
 
-#footer h3 {
+footer h3 {
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
-#footer p {
+footer p {
   color: white;
 }
 
@@ -164,7 +162,38 @@ a:hover, #footer a:hover {
   float: right;
 }
 
+#links {
+  float: inherit;
+}
+
 #footer a {
   color: white;
   text-decoration: none;
+}
+
+/*Social Media buttons*/
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* LinkedIn */
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
 }

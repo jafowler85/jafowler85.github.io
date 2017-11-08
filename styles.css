@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Alef:400,700');
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade:400,600');
 
 /*Universal styles*/
 
 body {
   color: #222;
   margin: 0;
-  font-family: 'Antic Slab', sans-serif;
+  font-family: 'Alef', sans-serif;
   background-image: url("old_wall.png");
 }
 
@@ -16,11 +17,12 @@ body {
 h1, h2, h3, h4, {
   color: #333;
 }
+
 p {
   line-height: 1.5;
 }
 
-a{
+a {
   color: #333;
 }
 
@@ -55,7 +57,8 @@ header {
 #header-title {
   display: block;
   float: left;
-  font-size: 38px;
+  font-family: 'Bungee Shade', sans-serif;
+  font-size: 42px;
   font-weight: bold;
 }
 
@@ -63,6 +66,7 @@ header {
   display: block;
   float: right;
   margin-top: 0;
+  font-family: 'Alef', sans-serif;
 }
 
 #header-nav li {
@@ -72,7 +76,7 @@ header {
 
 /*Header Navigation buttons*/
 
-.btn{
+.btn {
   background-color: #154360;
   border: 2px solid white;
   border-radius: 12px;
@@ -84,7 +88,7 @@ header {
 }
 
 .btn:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
 /*Post/About*/
@@ -95,7 +99,7 @@ header {
   padding: 60px 0;
 }
 
-.post-content{
+.post-content {
   height: 320px;
   width: 1000px;
   overflow: scroll;
@@ -108,9 +112,10 @@ header {
   border-radius: 130px;
 }
 
-.post-author > span {
+.post-author>span {
   margin-left: 16px;
 }
+
 .post-date {
   color: #154360;
   font-size: 14px;
@@ -174,26 +179,28 @@ footer p {
 /*Social Media buttons*/
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    float: left;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  float: left;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /* LinkedIn */
+
 .fa-linkedin {
-    background: #3B5998;
-    color: white;
+  background: #3B5998;
+  color: white;
 }
 
 /* Twitter */
+
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+  background: #55ACEE;
+  color: white;
 }

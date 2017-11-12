@@ -60,6 +60,7 @@ header {
   font-family: 'Bungee Shade', sans-serif;
   font-size: 42px;
   font-weight: bold;
+  letter-spacing: 0.3em;
 }
 
 #header-nav {
